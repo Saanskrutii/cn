@@ -1,0 +1,26 @@
+TCP PROGRAM
+
+Compile:
+g++ TCPserver.cpp -o TCPserver -lws2_32
+g++ TCPclient.cpp -o TCPclient -lws2_32
+
+Run:
+Terminal 1:
+.\TCPserver
+
+Terminal 2:
+.\TCPclient
+
+
+UDP PROGRAM
+
+Compile:
+g++ UDPserver.cpp -o UDPserver -lws2_32
+g++ UDPclient.cpp -o UDPclient -lws2_32
+
+Run:
+Terminal 1:
+.\UDPserver
+
+Terminal 2:
+.\UDPclient
